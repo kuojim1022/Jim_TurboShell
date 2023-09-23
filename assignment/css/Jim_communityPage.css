@@ -1,0 +1,507 @@
+/* =============目錄分類區域=================  */
+body {
+  max-width: 1440px;
+}
+
+/* 目錄黑底框 */
+div.menu_block {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 1440px;
+  height: 100%;
+  background-color: #1b1b1b;
+  left: 0px;
+  top: 0px;
+  font-size: 0px;
+  margin: 0px 0px;
+}
+
+/* 文字框 */
+div.menu_textArea {
+  width: 100%;
+  /* border: 1px solid red; */
+  display: inline-block;
+}
+
+/* 滑鼠標題 */
+p.menu_p_titleA {
+  display: block;
+  /* border: 1px solid green; */
+  font-size: 30px;
+  margin: 0;
+  color: #67f0ff;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+}
+
+/* 副標題 */
+p.menu_p_titleB {
+  display: block;
+  /* border: 1px solid blue; */
+  font-size: 16px;
+  margin: 0;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  /* padding: 30px 0px 0px 0px; */
+  margin: 10px 0px 30px 0px;
+  line-height: 30px;
+}
+
+/* 下方物件欄位 */
+/* 底框 */
+
+ul.menu_object {
+  display: flex;
+  /* border: 1px solid pink; */
+  justify-content: space-evenly;
+  /* width: 1200px; */
+  font-size: 0px;
+  margin: 0px 120px 0 120px;
+  padding: 0;
+
+
+}
+
+ul.menu_object li {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+/* 文字a標籤 */
+a.menu_object_01a {
+  text-decoration: none;
+}
+
+/* ================================下方ICON群組======================== */
+
+div.menu_object_01p {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* 圖片 */
+
+/* 臉書圖片 */
+div.pic_social {
+  background-image: url(../images/icon/icon_social_facebook.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: inline-block;
+  justify-content: center;
+}
+
+/* IG圖片 */
+div.pic_social_02 {
+  background-image: url(../images/icon/icon_social_instagram.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: inline-block;
+  justify-content: center;
+}
+
+/* X圖片 */
+div.pic_social_03 {
+  background-image: url(../images/icon/icon_social_X.png);
+  width: 100%;
+  height: 100%;
+  min-width: 50px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: inline-block;
+  justify-content: center;
+}
+
+/* TikTok圖片 */
+div.pic_social_04 {
+  background-image: url(../images/icon/icon_social_tiktok.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: inline-block;
+  justify-content: center;
+}
+
+/* YouTube圖片 */
+div.pic_social_05 {
+  background-image: url(../images/icon/icon_social_youtube.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: inline-block;
+  justify-content: center;
+}
+
+/* Discord圖片 */
+div.pic_social_06 {
+  background-image: url(../images/icon/icon_social_discord.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: inline-block;
+  justify-content: center;
+}
+
+.menu_object_01p:hover {
+  color: #67f0ff;
+}
+
+ul.menu_object li:hover {
+  transform: scale(1.1);
+}
+
+/* 九欄式區域 */
+
+/* 底圖部分 */
+div.main_block {
+  /* border-top: 1px solid #67f0ff; */
+  /* border-bottom: 1px solid #67f0ff; */
+  min-height: calc(100vh - 60px - 200px - 94px);
+  background-color: #1b1b1b;
+  min-width: 1200px;
+  width: 1440px;
+  /* width: 100%; */
+  height: 800px;
+  background-image: url(../images/pic_bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  z-index: 1;
+  position: relative;
+}
+
+/* 遮蓋黑底 */
+div.bgblack_cover {
+  /* border: 1px solid red; */
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, .4);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+
+}
+
+/* ============分享以獲得獎勵============ */
+body {
+  max-width: 1440px;
+}
+
+div.two_textArea {
+  /* border: 1px solid green; */
+  padding: 30px 0px 30px 0px;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, 0%);
+  z-index: 3;
+}
+
+p.two_textTitle {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin: 0px 0 0 0;
+  text-align: center;
+}
+
+p.two_textTitleB {
+  font-size: 16px;
+  color: white;
+  margin: 6px 0 0 0;
+  text-align: center;
+  line-height: 30px;
+}
+
+div.two_twoBtn {
+  /* border: 1px solid red; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 10px 0px 0 0;
+}
+
+a.two_knowMore {
+  font-size: 16px;
+  color: #67f0ff;
+  margin: 0 0px;
+  padding: 0 10px 0 0;
+  text-decoration: none;
+  z-index: 3;
+}
+
+a.two_buy {
+
+  font-size: 16px;
+  color: #67f0ff;
+  margin: 0 0px 100px 0;
+  padding: 0 0 0 0;
+  text-decoration: none;
+  z-index: 3;
+}
+
+/* =====================三欄式區域===================== */
+
+/* ====箭頭區==== */
+/* 左右箭頭按鈕 */
+div.page_pointer {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 1440px;
+  margin: 180px 0 0 0;
+  padding: 50px 0 50px 0;
+  /* height: 100px; */
+}
+
+/* 箭頭底色 */
+div.page_pointer button {
+  color: #1b1b1b;
+  background-color: #1b1b1b;
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 20px;
+  position: relative;
+  border-radius: 10px;
+}
+
+img.page_pointer_left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+img.pointer_black {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  opacity: 0%;
+}
+
+div.page_pointer button:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 24px 0px rgba(103, 240, 255, 1);
+}
+
+
+
+img.pointer_black:hover {
+  opacity: 100%;
+}
+
+
+
+/* ==========================作品圖=========================== */
+div.inner_block {
+  /* border: 1px solid red; */
+  width: 1440px;
+  min-width: 1200px;
+  margin: 0 auto;
+  font-size: 0px;
+}
+
+
+/* 三組一起框 */
+main.main ul.product_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+
+/* 第一組Card藍框線黑底=====左邊 */
+li.product_01 {
+  /* border: 2px solid rgb(55, 17, 240); */
+  /* width: calc((100% - 60px) / 4); */
+  margin: 60px 0px 0px 20px;
+  border: 2px solid #67f0ff;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #1b1b1b;
+  width: 800px;
+  position: absolute;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+li.product_02 {
+  margin: 60px 0px 0px 20px;
+  border: 2px solid #67f0ff;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #1b1b1b;
+  width: 600px;
+  position: absolute;
+  z-index: 1;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+li.product_03 {
+  margin: 60px 0px 0px 20px;
+  border: 2px solid #67f0ff;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #1b1b1b;
+  width: 600px;
+  position: absolute;
+  z-index: 1;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div,
+product_01_box {
+  overflow: hidden;
+}
+
+
+
+
+
+img.img_block_img {
+  width: 100%;
+}
+
+/* 標題 */
+p.title1 {
+  /* border: 1px solid red; */
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 副標題 */
+p.title2 {
+  color: #8D8D8D;
+  /* white-space: nowrap; */
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 8px 0px;
+}
+
+/* 價錢 */
+div.price_block {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px 0px;
+}
+
+
+
+
+/* test */
+.info-wrap {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 左資訊+右按鈕區 */
+
+.left_info {
+  /* border: 1px solid pink; */
+  /* width: 50%; */
+  /* padding: 16px 30px; */
+  margin: 16px 0px 16px 30px;
+}
+
+
+
+
+
+/* 加入購物車了解更多欄位 */
+.right_object {
+  /* width: 50%; */
+  /* border: 1px solid pink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 30px;
+  padding: 0px 0px;
+}
+
+button.product_btn a {
+  color: black;
+}
+
+/* 了解更多 */
+.main_knowMore {
+  font-size: 14px;
+  color: #9AF5FF;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.right_object a {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px 0;
+  /* border: 1px solid red; */
+
+}
+
+/* 加入購物車藍按鈕 */
+.product_btn {
+  /* border: 1px solid red; */
+  padding: 10px 20px;
+  margin: 0px 0 10px 0;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: #9AF5FF;
+  color: black;
+  font-weight: 900;
+  border: 0;
+}
+
+span.main_title_01A {
+  color: white;
+  /* border: 1px solid red; */
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: 40px 0 10px 0;
+}
+
+span.main_title_01B {
+  color: white;
+  /* border: 1px solid red; */
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+  margin: 0px 0 20px 0;
+}

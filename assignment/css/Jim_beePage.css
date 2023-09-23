@@ -1,0 +1,189 @@
+/* 底圖 */
+div.hex_body {
+  display: block;
+  width: 1440px;
+  height: 100%;
+  background-color: grey;
+  background-image: url(../images/pic_bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+
+}
+
+/* 商店標題 */
+div.hex_textarea {
+  font-size: 0px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* 商店標題 */
+div.hex_textarea :nth-child(1) {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  color: #67f0ff;
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: 30px 0 0px 0;
+}
+
+/* 商店副標題 */
+div.hex_textarea :nth-child(2) {
+  display: block;
+  font-size: 16px;
+  color: white;
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 10px 0 60px 0;
+
+  padding: 0px;
+}
+
+/* =============蜂巢============== */
+div.three_hex {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+div.hex_1 {
+  display: inline-flex;
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+div.hex_2 {
+  display: inline-flex;
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+div.hex_3 {
+  display: inline-flex;
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+div.hex_4 {
+  display: inline-flex;
+  /* border: 1px solid red; */
+  position: relative;
+  top: -100px;
+}
+
+div.hex_5 {
+  display: inline-flex;
+  /* border: 1px solid red; */
+  position: relative;
+  top: -100px;
+}
+
+div.hex_6 {
+  display: inline-flex;
+  /* border: 1px solid red; */
+  position: relative;
+  top: -200px;
+}
+
+
+
+
+
+
+/* ===============蜂巢按鈕================== */
+/* button.hex_button {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 60px;
+  background-color: hsla(0deg, 0%, 0%, .7);
+  border: none;
+  border: 1px solid #67f0ff;
+  z-index: 2;
+} */
+button.hex_button {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 60px;
+  background-color: hsla(0deg, 0%, 0%, .7);
+  border: none;
+  border: 1px solid #67f0ff;
+  z-index: 2;
+}
+
+button.hex_button:hover {
+  transform: scale();
+}
+
+/* 按鈕文字 */
+/* a.hex_a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #67f0ff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  width: 200px;
+  z-index: 2;
+} */
+
+a.hex_a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #67f0ff;
+
+  text-decoration: none;
+  width: 200px;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+/* 指到放大 */
+/* img.hex_img:hover {
+  transform: scale(1.1);
+} */
+
+div.hex_1:hover {
+  transform: scale(1.2);
+}
+
+div.hex_2:hover {
+  transform: scale(1.2);
+}
+
+div.hex_3:hover {
+  transform: scale(1.2);
+}
+
+div.hex_4:hover {
+  transform: scale(1.2);
+}
+
+div.hex_5:hover {
+  transform: scale(1.2);
+}
+
+div.hex_6:hover {
+  transform: scale(1.2);
+}

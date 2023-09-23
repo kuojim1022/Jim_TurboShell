@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 全部底框 */
+header.header {
+  /* border: 1px solid blue; */
+  background: black;
+  min-width: 600px;
+  width: 1440px;
+}
+
+/* 全部底框 */
+header.header div.block {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+/* 全部底框 */
+header.header div.block nav.nav {
+  /* border: 1px solid red; */
+  font-size: 0;
+}
+
+header.header div.block nav.nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ========= logo區域 ========= */
+
+a.logo {
+  /* border: 1px solid red; */
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px;
+  margin: 0 0 0 120px;
+}
+
+a.logo img {
+  height: 60px;
+}
+
+a.logo img:hover {
+  transform: scale(1.2);
+}
+
+/* ========= 導覽列區域 ========= */
+header.header ul.nav_list {
+  display: inline-flex;
+  margin: 0 0 0 0px;
+  padding: 0px;
+  font-size: 0;
+  list-style: none;
+  vertical-align: top;
+}
+
+header.header ul.nav_list>li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+header.header ul.nav_list>li a {
+  display: inline-block;
+  /* border: 1px solid green; */
+  text-decoration: none;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 60px;
+  color: grey;
+}
+
+/* 指到文字變藍色 指到放指到放大 */
+header.header ul.nav_list>li a.-on,
+header.header ul.nav_list>li a:hover {
+  color: #67f0ff;
+  transform: scale(1.2);
+}
+
+div.berger_block div a img:hover {
+  transform: scale(1.2);
+}
+
+div.icon_user img:hover {
+  transform: scale(1.2);
+}
+
+a.user_list-link:hover {
+  transform: scale(1.05);
+  border: 1px solid #67f0ff;
+}
+
+/* ========漢堡按鈕========== */
+
+
+div.icon_user {
+  z-index: 2;
+}
+
+header.header div.berger_block {
+  /* border: 3px solid blue; */
+  float: right;
+  margin: 0 120px;
+  position: relative;
+  display: flex;
+
+
+}
+
+/* 下拉式彈窗_讓他平常隱藏 */
+.user_list {
+  display: none;
+}
+
+/* 指到icon_user的時候讓隱藏的下拉式彈窗出現 */
+.icon_user:hover .user_list {
+  display: block;
+}
+
+.icon_user:hover::before {
+  pointer-events: auto;
+}
+
+.icon_user::before {
+  content: "";
+  height: 20%;
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  pointer-events: none;
+}
+
+/* 搜尋ICON.購物車ICON */
+div a.icon_search,
+div a.icon_shopping {
+
+  display: inline-block;
+  /* height: 60px;
+  line-height: 60px; */
+  margin: 0 5px;
+  padding: 5px;
+}
+
+/* 人頭ICON */
+div.icon_user {
+  display: inline-block;
+  margin: 0 16px;
+  /* height: 60px;
+  line-height: 60px; */
+  padding: 5px 0px;
+}
+
+/* 下拉式選單整欄 */
+ul.user_list {
+  border: 1px solid #67f0ff;
+  list-style: none;
+  padding: 0px 0px;
+  position: absolute;
+  left: 20px;
+  top: 120%;
+  width: 90%;
+}
+
+/* 下拉式選單單行 */
+ul.user_list li {
+  border: 1px solid #67f0ff;
+  font-size: 0px;
+}
+
+/* 行內內部元素 */
+ul.user_list>li a {
+  font-size: 16px;
+  background-color: black;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+ul.user_list>li a:hover {
+  color: #67f0ff;
+}

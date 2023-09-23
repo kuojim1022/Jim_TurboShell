@@ -1,0 +1,223 @@
+.login_allBlock,
+.login_allBlock * {
+  box-sizing: border-box;
+}
+
+
+
+/* ==============背景底圖============= */
+div.PopUp_main_block {
+  /* border: 1px solid #67f0ff; */
+  min-height: calc(100vh - 60px - 200px - 94px);
+  background-color: #1b1b1b;
+  min-width: 1200px;
+  width: 1440px;
+  height: 1200px;
+  background-image: url(../images/pic_bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+  z-index: 1;
+  /* padding: 240px 0; */
+}
+
+div.bgblack_cover {
+  background-color: hsla(0, 0%, 0%, .4);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+
+}
+
+
+/* 黑底藍框 */
+.base_rectengle01 {
+  background: #1b1b1b;
+  border-style: solid;
+  border-color: #67f0ff;
+  border-width: 2px;
+  width: 576px;
+  /* height: 720px; */
+  /* height: 100%; */
+  box-shadow: 0px 0px 24px 0px rgba(103, 240, 255, 1);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  /* left: 432px; */
+  /* top: 240px; */
+  margin: auto;
+  /* padding: 240px 0; */
+}
+
+/* 登入填入欄位 */
+.turboshell_login {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0px 0px 0px 0px;
+  padding: 30px 0 0 0;
+  align-items: center;
+
+}
+
+
+/* TURBOSHELL登入 */
+.turboshell {
+  color: #ffffff;
+  text-align: left;
+  font: 700 32px "Inter", sans-serif;
+  position: relative;
+  padding: 0px 0 30px 0;
+}
+
+/* 請輸入電子信箱 */
+
+input.input_01A {
+  margin: 0 0 16px 0;
+  position: relative;
+  display: flex;
+  width: 495px;
+  height: 60px;
+  border: 0;
+}
+
+/* 登入按鈕 */
+div.login_01 {
+  background: #67f0ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 495px;
+  height: 60px;
+  /* position: relative; */
+}
+
+a.login_01A {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 忘記密碼? */
+div.text_forget {
+  /* border: 1px solid red; */
+  padding: 24px 40px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  position: relative;
+
+}
+
+a.text_forgetA {
+  text-decoration: none;
+  color: #67f0ff;
+  /* text-align: left; */
+  /* font: 400 14px "Inter", sans-serif; */
+  position: relative;
+}
+
+
+/* 尚未擁有帳號嗎?註冊新帳號框 */
+div.creat_newAccount {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+
+/* 尚未擁有嗎? */
+div.creat_newAccountA {
+  color: #ffffff;
+  text-align: left;
+}
+
+/* 註冊新帳號 */
+a.creat_newAccountB {
+  color: #67f0ff;
+  font: 700 22px "Inter", sans-serif;
+  text-decoration: none;
+  margin: 20px 0 0 0;
+}
+
+/* 或的分隔線 */
+
+div.line {
+  /* border: 1px solid red  ; */
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  /* flex-shrink: 0; */
+  /* position: absolute; */
+  /* left: 42px; */
+  /* top: 530px; */
+}
+
+div.line1 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px 0 0 0;
+  width: 228px;
+  height: 0px;
+
+}
+
+div.line2 {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+
+/* 底層按鈕 */
+.bot-btn {
+  display: flex;
+  position: relative;
+  /* left: 0px; */
+  margin: 30px 0px 0px 0px;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid green; */
+
+
+}
+
+/* 藍色底框 */
+a.blueframe {
+  background: #67f0ff;
+  margin: 0px 10px 40px 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 48px;
+  /* position: relative; */
+  /* top: 200px; */
+
+}
+
+/* 透過...登入文字 */
+div.bot_btnText {
+  color: #000000;
+  /* text-align: left; */
+  /* font: 400 14.4px "Inter", sans-serif; */
+  /* position: relative; */
+}
+
+img.icon_social {
+  height: 40px;
+}
