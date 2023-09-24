@@ -6,7 +6,7 @@ div.PopUp_main_block {
   min-width: 1200px;
   width: 1440px;
   height: 620px;
-  background-image: url(../images/pic_bg1.png);
+  background-image: url(/images/pic_bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
