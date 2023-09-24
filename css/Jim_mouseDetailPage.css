@@ -6,7 +6,7 @@ div.PopUp_main_block {
   min-width: 1200px;
   width: 1440px;
   height: 620px;
-  background-image: url(/images/pic_bg1.png);
+  background-image: url(../images/pic_bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -28,7 +28,7 @@ div.bgblack_cover {
 
 /* 左邊黑底藍框 */
 .base_rectengle01 {
-  background-image: url(/images/pic_mouse_detail/pic_mouse_01.png);
+  background-image: url(../images/pic_mouse_detail/pic_mouse_01.png);
   background-size: cover;
   background-position: 50px bottom;
   border-style: solid;
