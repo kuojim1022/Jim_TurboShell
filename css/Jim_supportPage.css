@@ -3,7 +3,7 @@ body {
 }
 
 div.bg_pic_block {
-  border: 1px solid #67f0ff;
+  /* border: 1px solid #67f0ff; */
   min-height: calc(100vh - 60px - 200px - 94px);
   background-color: #1b1b1b;
   min-width: 1200px;
