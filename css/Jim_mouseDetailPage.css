@@ -30,7 +30,6 @@ div.bgblack_cover {
 /* 左邊黑底藍框 */
 .base_rectengle01 {
   background-image: url(/images/pic_mouse_detail/pic_mouse_01.png);
-  /* background: #1b1b1b; */
   background-size: cover;
   background-position: 50px bottom;
   border-style: solid;
@@ -63,7 +62,6 @@ div.bgblack_cover {
 div.base_rectengle01_right {
   /* border: 1px solid orange; */
   font-size: 0;
-  /* background-color: #1b1b1b; */
   width: 480px;
   height: 540px;
   position: absolute;
