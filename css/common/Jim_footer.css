@@ -6,17 +6,18 @@ body {
 /* Footer黑底框 */
 footer.footer {
   position: relative;
-  /* border: 1px solid blue; */
+  /* border: 1px solid green; */
   background: black;
-  min-width: 600px;
-  width: 1440px;
+  min-width: 1200px;
+  width: 100%;
 }
 
 /* footer左上區塊 */
 div.footer_block {
   /* border: 1px solid red; */
+  background-color: black;
   width: 100%;
-  display: inline-flex;
+  display: flex;
   margin: 0 0 0 0;
   padding: 10px 120px 0px 120px;
   font-size: 0;
@@ -37,7 +38,7 @@ ul.footer_aboutUs,
 ul.footer_followUs {
   /* border: 1px solid red; */
   display: inline-block;
-  font-size: 13px;
+  font-size: 14px;
   color: white;
   list-style: none;
   vertical-align: top;
@@ -71,7 +72,7 @@ ul.footer_shopSouth li a,
 ul.footer_discovery li a,
 ul.footer_serve li a,
 ul.footer_aboutUs li a {
-  font-size: 9px;
+  font-size: 12px;
   color: grey;
   text-decoration: none;
 }
@@ -87,7 +88,6 @@ div.footer_block ul li a:hover {
 hr.footer_whiteline {
   margin: 20px 120px 0 120px;
   padding: 0;
-  width: 1200px;
 }
 
 /* ===============標語============= */
@@ -112,8 +112,9 @@ div.footer_slogan p {
 
 /* ==============版權申明================ */
 div.footer_bottom {
+  display: flex;
   background-color: black;
-  width: 1440px;
+  width: 100%;
   height: 100%;
   /* border: 1px solid blue; */
   position: relative;

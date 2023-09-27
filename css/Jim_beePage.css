@@ -1,7 +1,8 @@
 /* 底圖 */
 div.hex_body {
   display: block;
-  width: 1440px;
+  width: 100%;
+  min-width: 1200px;
   height: 100%;
   background-color: grey;
   background-image: url(../images/pic_bg2.png);
@@ -94,75 +95,29 @@ div.hex_6 {
 
 
 /* ===============蜂巢按鈕================== */
-/* button.hex_button {
-  position: absolute;
-  left: 50%;
-  top: 70%;
-  transform: translate(-50%, -50%);
-  font-size: 0;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  height: 60px;
-  background-color: hsla(0deg, 0%, 0%, .7);
-  border: none;
-  border: 1px solid #67f0ff;
-  z-index: 2;
-} */
-button.hex_button {
-  position: absolute;
-  left: 50%;
-  top: 70%;
-  transform: translate(-50%, -50%);
-  font-size: 0;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  height: 60px;
-  background-color: hsla(0deg, 0%, 0%, .7);
-  border: none;
-  border: 1px solid #67f0ff;
-  z-index: 2;
-}
-
-button.hex_button:hover {
-  transform: scale();
-}
-
-/* 按鈕文字 */
-/* a.hex_a {
-  font-size: 24px;
-  font-weight: bold;
-  color: #67f0ff;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  text-decoration: none;
-  width: 200px;
-  z-index: 2;
-} */
 
 a.hex_a {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 60px;
+  background-color: hsla(0deg, 0%, 0%, .7);
+  border: none;
+  border: 1px solid #67f0ff;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   font-size: 24px;
   font-weight: bold;
   color: #67f0ff;
-
   text-decoration: none;
-  width: 200px;
-  z-index: 2;
 }
-
-
-
-
-
-
-
-/* 指到放大 */
-/* img.hex_img:hover {
-  transform: scale(1.1);
-} */
 
 div.hex_1:hover {
   transform: scale(1.2);

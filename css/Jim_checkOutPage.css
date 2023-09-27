@@ -4,7 +4,7 @@ div.PopUp_main_block {
   min-height: calc(100vh - 60px - 200px - 94px);
   background-color: #1b1b1b;
   min-width: 1200px;
-  width: 1440px;
+  width: 100%;
   height: 620px;
   background-image: url(../images/pic_bg1.png);
   background-repeat: no-repeat;
@@ -299,15 +299,22 @@ div.MD_addCourt {
   background-color: #67f0ff;
   color: black;
   border: 0;
-
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* 
 .product_btn a {
   text-decoration: none;
   font-size: 20px;
   color: black;
   font-weight: bold;
-}
+} */
 
 /* 常見問題 */
 div.notice_02 {

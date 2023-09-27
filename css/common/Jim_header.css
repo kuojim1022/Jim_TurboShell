@@ -1,18 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
 /* 全部底框 */
 header.header {
   /* border: 1px solid blue; */
   background: black;
-  min-width: 600px;
-  width: 1440px;
+  min-width: 1200px;
+  width: 100%;
 }
 
 /* 全部底框 */
@@ -20,11 +11,6 @@ header.header div.block {
   /* border: 1px solid red; */
   margin: 0 auto;
   padding: 0 auto;
-}
-
-/* 全部底框 */
-header.header div.block nav.nav {
-  /* border: 1px solid red; */
   font-size: 0;
 }
 
@@ -55,6 +41,7 @@ a.logo img:hover {
 
 /* ========= 導覽列區域 ========= */
 header.header ul.nav_list {
+  /* border: 1px solid pink; */
   display: inline-flex;
   margin: 0 0 0 0px;
   padding: 0px;
@@ -106,9 +93,9 @@ div.icon_user {
 }
 
 header.header div.berger_block {
-  /* border: 3px solid blue; */
+  /* border: 1px solid blue; */
   float: right;
-  margin: 0 120px;
+  margin: 0 120px 0 0px;
   position: relative;
   display: flex;
 
@@ -155,8 +142,6 @@ div a.icon_shopping {
 div.icon_user {
   display: inline-block;
   margin: 0 16px;
-  /* height: 60px;
-  line-height: 60px; */
   padding: 5px 0px;
 }
 
