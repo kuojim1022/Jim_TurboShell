@@ -142,36 +142,23 @@
 
  /* 底圖部分 */
  div.main_block {
-   /* border-top: 1px solid #67f0ff; */
-   /* border-bottom: 1px solid #67f0ff; */
    min-height: calc(100vh - 60px - 200px - 94px);
    background-color: #1b1b1b;
    min-width: 1200px;
-   width: 1440px;
-   /* width: 100%; */
+   width: 100%;
    height: 100%;
-   background-image: url(../images/pic_bg1.png);
+   background-image: url(../images/pic_bg1B.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center bottom;
    position: relative;
-   padding: 0px 0px 20px 0px;
+   padding: 20px 0px 20px 0px;
    z-index: 1;
- }
-
- /* 遮蓋黑底 */
- div.bgblack_cover {
-   position: absolute;
-   /* background-color: red; */
-   background-color: hsla(0, 0%, 0%, .4);
-   width: 100%;
-   height: 100%;
-   z-index: 2;
  }
 
  div.inner_block {
    /* border: 1px solid blue; */
-   width: 1440px;
+   width: 100%;
    min-width: 1200px;
    margin: 0 auto;
    font-size: 0px;
@@ -181,41 +168,27 @@
 
  /* ul裡面 */
  main.main ul.product_list {
-   /* border: 2px solid rgb(227, 50, 50); */
-   list-style: none;
    padding: 0;
    margin: 0;
-   display: flex;
-   flex-wrap: wrap;
-
-   /* justify-content: space-between; */
+   display: grid;
+   grid-template-rows: auto;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 10px;
  }
 
+ .img_block img {
+   width: 100%;
+ }
 
  /* Card藍框線黑底 */
  main.main ul.product_list>li {
-   /* border: 2px solid rgb(55, 17, 240); */
-   /* width: calc((100% - 60px) / 4); */
-   margin: 20px 0px 0px 20px;
    border: 2px solid #67f0ff;
    border-radius: 8px;
    overflow: hidden;
    background-color: #1b1b1b;
-   /* position: absolute; */
-   z-index: 3;
+   margin: 0px 0 0px 0;
+   width: 100%;
  }
-
-
-
- /* a裡面 */
- /* main.main ul.product_list > li a {
-  display: block;
-  background-color: black;
-  border-radius: 5px;
-  text-decoration: none;
-} */
-
-
 
  /* 標題 */
  p.title1 {
@@ -229,7 +202,6 @@
  /* 副標題 */
  p.title2 {
    color: #8D8D8D;
-   /* white-space: nowrap; */
    font-size: 12px;
    overflow: hidden;
    text-overflow: ellipsis;
@@ -244,44 +216,30 @@
    margin: 0px 0px;
  }
 
+ /* 卡片下方黑色底 */
 
-
-
- /* test */
  .info-wrap {
-   /* border: 1px solid white; */
    display: flex;
+   background-color: #1b1b1b;
    justify-content: space-between;
  }
 
  /* 左資訊+右按鈕區 */
 
  .left_info {
-   /* border: 1px solid pink; */
-   /* width: 50%; */
-   /* padding: 16px 30px; */
-   margin: 16px 0px 16px 30px;
+   margin: 10px;
  }
-
-
-
-
 
  /* 加入購物車了解更多欄位 */
+
  .right_object {
-   /* width: 50%; */
-   /* border: 1px solid pink; */
    display: flex;
    flex-direction: column;
+   margin: 10px;
    justify-content: center;
    align-items: center;
-   margin: 10px 30px;
-   padding: 0px 0px;
  }
 
- button.product_btn a {
-   color: black;
- }
 
  /* 了解更多 */
  .main_knowMore {
@@ -294,10 +252,6 @@
 
  .right_object a {
    text-decoration: none;
-   margin: 0px;
-   padding: 0px 0;
-   /* border: 1px solid red; */
-
  }
 
  /* 加入購物車藍按鈕 */
@@ -306,29 +260,18 @@
    padding: 10px 20px;
    margin: 0px 0 10px 0;
    border-radius: 8px;
-   font-size: 18px;
+   font-size: 16px;
+   font-weight: bold;
    background-color: #9AF5FF;
    color: black;
    font-weight: 900;
-   border: 0;
  }
 
  span.main_title_01A {
    color: white;
-   /* border: 1px solid red; */
    font-size: 36px;
    display: flex;
    justify-content: center;
    font-weight: bold;
    margin: 40px 0 10px 0;
- }
-
- span.main_title_01B {
-   color: white;
-   /* border: 1px solid red; */
-   font-size: 18px;
-   display: flex;
-   justify-content: center;
-   font-weight: lighter;
-   margin: 0px 0 20px 0;
  }

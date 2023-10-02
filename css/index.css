@@ -57,12 +57,39 @@ div.inner_block {
   justify-content: center;
 }
 
+/* 滑鼠圖片 */
+div.img_block01 {
+  background-image: url(../images/pic_mainProduct.png);
+
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+div.img_block02 {
+  background-image: url(../images/pic_happyplayer.png);
+
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+div.img_block03 {
+  background-image: url(../images/pic_group_people.png);
+
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
 
 /* ul裡面 */
 main.main ul.product_list {
-  /* border: 2px solid rgb(227, 50, 50); */
-  /* /* list-style: none; */
-  /* border: 1px solid red; */
   min-width: 1200px;
   padding: 0;
   margin: 0;
