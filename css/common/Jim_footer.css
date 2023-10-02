@@ -63,9 +63,19 @@ ul.footer_followUs li {
 
 /* 追蹤我們ICON */
 a.footer_link img {
-  height: 20px;
+  /* border: 1px solid red; */
+  height: 18px;
 
-  margin: -8px 0px;
+}
+
+ul.footer_followUs li {
+  margin: 2px 0 2px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.li_fb a {
+  margin: 10px 0 0 0;
 }
 
 ul.footer_shopSouth li a,
